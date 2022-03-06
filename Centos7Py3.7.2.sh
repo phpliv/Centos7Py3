@@ -18,7 +18,7 @@ make && make install
 ln -s /usr/local/python3/bin/python3 /usr/local/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip3
 ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip
-pip install --upgrade pip
+pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple/
 cd ..
 wget https://cmake.org/files/v3.3/cmake-3.3.2.tar.gz 
 tar xzvf cmake-3.3.2.tar.gz
@@ -29,5 +29,6 @@ make install
 cmake --version
 pip install --upgrade setuptools -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install numpy Matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/
+git init
 pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install ddddocr -i https://pypi.tuna.tsinghua.edu.cn/simple/
