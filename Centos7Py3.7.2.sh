@@ -1,6 +1,6 @@
 #!/bin/bash
 yum -y groupinstall "Development tools"
-yum -y install wget zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel python-devel zlib-devel libjpeg-turbo-devel libffi-devel
+yum -y install wget zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel python-devel zlib-devel libjpeg-turbo-devel libffi-devel opencv-devel libpng-devel
 yum install -y centos-release-scl
 yum install -y devtoolset-8-gcc*
 scl enable devtoolset-8 bash
