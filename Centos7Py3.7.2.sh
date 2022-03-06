@@ -18,6 +18,7 @@ make && make install
 ln -s /usr/local/python3/bin/python3 /usr/local/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip3
 ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip
+pip install --upgrade pip
 cd ..
 wget https://cmake.org/files/v3.3/cmake-3.3.2.tar.gz 
 tar xzvf cmake-3.3.2.tar.gz
